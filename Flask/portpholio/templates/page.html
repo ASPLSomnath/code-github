@@ -17,11 +17,11 @@
 </head>
 <body>
     <nav>
-        <a href="/about">About Me</a>
-        <a href="/projects">Projects</a>
-        <a href="/skills">Skills</a>
-        <a href="/contact">Contact</a>
-        <a href="/blog">Blog</a>
+        <a href="{{ url_for('about') }}">About Me</a>
+        <a href="{{ url_for('projects') }}">Projects</a>
+        <a href="{{ url_for('skills') }}">Skills</a>
+        <a href="{{ url_for('contact') }}">Contact</a>
+        <a href="{{ url_for('blog') }}">Blog</a>      
     </nav>
     <div class="container">
         {% block content %}
