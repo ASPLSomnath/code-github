@@ -11,7 +11,9 @@ class Post(BaseModel):
 
 
 @app.get('/info')
+@app.get('/')
 def info():
+    print('Info')
     info = {
         'name': 'somnath chakrborty',
         'gmail': "som@gmail.com",
