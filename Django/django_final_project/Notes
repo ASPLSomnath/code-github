@@ -45,4 +45,36 @@ python manage.py createsuperuser
  
  
  ## startapp
- python3 manage.py startapp tweet
+ python3 manage.py startapp app_name
+
+@ 27:00  -- stop 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
